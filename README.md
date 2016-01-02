@@ -48,6 +48,7 @@ Using Apache and mod WSGI to serve the Flask web app, you can connect to Weaved 
 - Do all steps from LAN version (but you don't need to keep `python app.py` running)
 - See [Weaved documentation](https://www.raspberrypi.org/documentation/remote-access/access-over-Internet/internetaccess.md), [sign up](http://www.weaved.com/), install on your Pi and configure web service
 - Install Apache and mod WSGI as above
-- Configure `/etc/apache2/sites-available/000-default.conf` as per [apache/000-default.conf](apache/000-default.conf)
+- Configure your vhost:
+    - `sudo cp sense-hat-data-web-app/apache/000-default.conf /etc/apache2/sites-available/`
 - Get your Pi's web address from Weaved (e.g. `https://abcdefgh.p19.weaved.com/`)
 - Navigate to it in a web browser
