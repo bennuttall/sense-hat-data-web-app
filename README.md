@@ -46,7 +46,6 @@ Clone this repo and run `db.py` in cron to store data, then run `app.py` and run
     - You should see the Sense HAT temperature and humidity data in the browser
 1. Use [Cron](https://www.raspberrypi.org/documentation/linux/usage/cron.md) to schedule `db.py` to be run regularly
     - Now every time you view the web page, it will be up-to-date
-```
 
 ### Advanced: Internet
 
