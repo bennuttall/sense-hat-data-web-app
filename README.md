@@ -21,7 +21,7 @@ Advanced version:
 - Weaved
 
 ```bash
-sudo apt-get install python3-flask apache2 libapache2-mod-wsgi weavedconnectd
+sudo apt-get install python3-flask apache2 libapache2-mod-wsgi-py3 weavedconnectd -y
 ```
 
 ## Usage
